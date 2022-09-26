@@ -3,3 +3,43 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  color: red;
+  text-align: center;
+}
+
+img {
+  align-items: center;
+  display: block;
+  margin: 0 auto;
+}
+
+figcaption {
+  font-size: small;
+  text-align: center;
+}
+
+a:link {
+  color: blue;
+  background-color: grey;
+}
+
+a:visited {
+  color: purple;
+  background-color: grey;
+}
+
+p {
+  max-width: 800px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+div {
+  background-color: red;
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
